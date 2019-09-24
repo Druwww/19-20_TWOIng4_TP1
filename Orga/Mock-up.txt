@@ -1,0 +1,7 @@
+Les 3 étapes du Mock-up
+
+Zoning : créer les boxes et juste dire le thème de la box (menu, photo, article , ...)
+
+Wireframe : expérience utilisateur, dire quel box amène où
+
+Mock-up : on remplis un peu les box et on lis les 2 premiers
