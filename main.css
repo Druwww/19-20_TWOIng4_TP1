@@ -1,3 +1,11 @@
+h1.headerPrincipal{
+    height: 50px;
+    top: 0px;
+    left: 10px;
+    background-color: black;
+    color: white; 
+}
+
 p.mainMenu{
     position: fixed;  
     float: left; 
@@ -8,6 +16,7 @@ p.mainMenu{
     width: 150px;
     top: 10px;
     left: 10px;
+    margin-top: 70px;
 }
 
 p.mainMenu a{
@@ -25,5 +34,6 @@ p.mainMenu a:hover {
   .main {
       /* laisser assez d'espace pour le menu sur le coté*/
     margin-left: 200px; 
+    margin-top: 10px;
     padding: 0px 10px;
   }
