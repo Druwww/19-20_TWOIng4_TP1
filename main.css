@@ -1,0 +1,29 @@
+p.mainMenu{
+    position: fixed;  
+    float: left; 
+    z-index: 1;
+    background: rgba(230, 228, 228, 0.836);
+    overflow-x: hidden;
+    padding: 6px 8px 6px 16px;
+    width: 150px;
+    top: 10px;
+    left: 10px;
+}
+
+p.mainMenu a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none; /*enlever le texte souligné*/
+    font-size: 25px;
+    color: #2196F3;
+    display: block; /*pour espacer le text en block*/
+}
+/* Dans le menu sur le coté, quand on passe la sourie sur un <a>*/
+p.mainMenu a:hover {
+    color: rgb(5, 60, 105);
+  }
+
+  .main {
+      /* laisser assez d'espace pour le menu sur le coté*/
+    margin-left: 200px; 
+    padding: 0px 10px;
+  }
