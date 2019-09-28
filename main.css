@@ -1,6 +1,7 @@
 h1.headerPrincipal{
     height: 50px;
-    top: 0px;
+    margin-top: 0px;
+    float: top;
     left: 10px;
     background-color: black;
     color: white; 
@@ -36,4 +37,18 @@ p.mainMenu a:hover {
     margin-left: 200px; 
     margin-top: 10px;
     padding: 0px 10px;
+  }
+
+  img.photoProfil{
+      float: left;
+      margin-right: 20px;
+      width: 200px;
+      height: 200px;
+  }
+
+  p.legendPhoto{
+      /* float: left; */
+      padding-left: 40px;
+      word-wrap: break-word;
+      font-size: 25px;
   }
