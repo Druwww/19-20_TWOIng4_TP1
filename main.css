@@ -1,3 +1,5 @@
+AddType video/mp4  .mp4
+
 h1.headerPrincipal{
     height: 50px;
     margin-top: 0px;
@@ -32,23 +34,94 @@ p.mainMenu a:hover {
     color: rgb(5, 60, 105);
   }
 
-  .main {
+.main {
       /* laisser assez d'espace pour le menu sur le coté*/
     margin-left: 200px; 
     margin-top: 10px;
     padding: 0px 10px;
   }
 
-  img.photoProfil{
+  h1.titre{
+    float: left;
+  }
+
+  h1.titre img.photoProfil{
       float: left;
       margin-right: 20px;
       width: 200px;
       height: 200px;
   }
 
-  p.legendPhoto{
-      /* float: left; */
+  h1.titre p.legendPhoto{
+     vertical-align: center;
       padding-left: 40px;
       word-wrap: break-word;
       font-size: 25px;
+  }
+
+  p.boxCategorie{
+      float: left;
+      width: 200px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  p.boxCategorie img{
+    width: 200px;
+    height: 200px;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+  }
+
+p.contacte{
+    text-align: center;
+}
+
+p.contacte video{
+    vertical-align: middle;
+    width: 400px; 
+    height: 222px;    
+}
+
+p.contacte .button {
+    vertical-align: middle;
+    display: block;
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  p.contacte  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  p.contacte .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  p.contacte .button:hover span {
+    padding-right: 25px;
+  }
+  
+ p.contacte .button:hover span:after {
+    opacity: 1;
+    right: 0;
   }
