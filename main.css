@@ -64,6 +64,7 @@ p.mainMenu a:hover {
       width: 200px;
       margin-left: 20px;
       margin-right: 20px;
+      text-align: center;
   }
 
   p.boxCategorie img{
@@ -87,7 +88,6 @@ p.contacte video{
 }
 
 p.contacte .button {
-    vertical-align: middle;
     display: block;
     border-radius: 4px;
     background-color: black;
@@ -147,4 +147,17 @@ p.contacte .button {
   p.pTableau{
     margin-left: 15px;
     margin-right: 15px;
+  }
+
+  footer{
+    position: absolute; 
+    bottom: 0;
+    left: 0; 
+    right: 0
+  }
+  footer p{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: black;
+    height: 20px;
   }
