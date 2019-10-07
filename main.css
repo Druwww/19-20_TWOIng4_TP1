@@ -149,15 +149,10 @@ p.contacte .button {
     margin-right: 15px;
   }
 
-  footer{
-    position: absolute; 
-    bottom: 0;
-    left: 0; 
-    right: 0
-  }
-  footer p{
+  p.bas{
     text-align: center;
-    color: #FFFFFF;
+    color: black;
     background-color: black;
     height: 20px;
+    float: left;
   }
